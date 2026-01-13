@@ -1,14 +1,16 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Timetable</title>
+    <title>MBA Strategic Management Timetable | Feb 08</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
+            color: #2c3e50;
         }
         .header {
             text-align: center;
@@ -29,29 +31,29 @@
         }
         .event-details {
             font-size: 1.1em;
-            color: #2c3e50;
             line-height: 1.8;
         }
         h1 {
-            color: #2c3e50;
+            color: #3498db;
             text-align: center;
             margin: 20px 0;
         }
         .timetable {
             width: 100%;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             border-collapse: collapse;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         .timetable th, .timetable td {
             border: 1px solid #ddd;
-            padding: 12px;
+            padding: 10px 12px;
             text-align: left;
         }
         .timetable th {
             background-color: #3498db;
             color: white;
+            font-weight: bold;
         }
         .timetable tr:nth-child(even) {
             background-color: #f8f9fa;
@@ -61,16 +63,24 @@
         }
         .start-time {
             font-weight: bold;
+            color: #2c3e50;
+            white-space: nowrap;
+        }
+        .lunch-break {
+            background-color: #fef2f2;
+            color: #dc2626;
+            font-weight: bold;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="header">
         <div class="university">Hong Kong Baptist University</div>
-        <div class="program">Master of Science in Data Analytics and Business Economics</div>
+        <div class="program">MBA – Strategic Management</div>
         <div class="event-details">
-            Date: Nov 05<br>
-            Time: 6:30pm - 9:20pm
+            Date: Feb 08<br>
+            Time: 9:00am - 5:00pm
         </div>
     </div>
 
@@ -81,73 +91,186 @@
             <th>Activity</th>
         </tr>
         <tr>
-            <td class="start-time">6:30pm</td>
+            <td class="start-time">9:00am</td>
             <td>Class start</td>
         </tr>
         <tr>
-            <td>6:40pm - 6:45pm</td>
-            <td>Introduction of MBS and IABMS</td>
+            <td class="start-time">9:00am - 9:10am</td>
+            <td>Opening</td>
         </tr>
         <tr>
-            <td>6:45pm - 6:48pm</td>
-            <td>Introduction of Top Boss Simulation Game</td>
+            <td class="start-time">9:10am - 9:13am</td>
+            <td>Introduction of Michael Chan, International Association of Business Management Simulation (Page 1–12)</td>
         </tr>
         <tr>
-            <td>6:48pm - 6:55pm</td>
-            <td>Why business plan is essential?</td>
+            <td class="start-time">9:13am - 9:35am</td>
+            <td>Introduction of MBS / Level 1 (Page 13-45)</td>
         </tr>
         <tr>
-            <td>6:58pm - 7:10pm</td>
-            <td>Introduction of business simulation game concept</td>
+            <td class="start-time">9:35am - 9:47am</td>
+            <td>Round 1 of Game 1 – 12 mins (Page46-47)</td>
         </tr>
         <tr>
-            <td>7:15pm - 7:30pm</td>
-            <td>Form team and creation of company name</td>
+            <td class="start-time">9:47am - 9:57am</td>
+            <td>Result review and debrief – 10 mins (Page48-52)</td>
         </tr>
         <tr>
-            <td>7:30pm - 7:55pm</td>
-            <td>Introduction of MBS</td>
+            <td class="start-time">9:57am - 10:09am</td>
+            <td>Round 2 of Game 1 – 12 mins (Page53)</td>
         </tr>
         <tr>
-            <td>7:55pm - 8:00pm</td>
+            <td class="start-time">10:09am - 10:19am</td>
+            <td>Result review and debrief – 10 mins (Page54-56)</td>
+        </tr>
+        <tr>
+            <td class="start-time">10:19am - 10:31am</td>
+            <td>Round 3 of Game 1 – 12 mins (Page57)</td>
+        </tr>
+        <tr>
+            <td class="start-time">10:31am - 10:41am</td>
+            <td>Result review and debrief – 10 mins (Page58-62)</td>
+        </tr>
+        <tr>
+            <td class="start-time">10:19am - 10:31am</td>
+            <td>Round 4 of Game 1 – 12 mins (Page63)</td>
+        </tr>
+        <tr>
+            <td class="start-time">10:31am - 10:36am</td>
+            <td>Result review and debrief – 10 mins (Page64)</td>
+        </tr>
+        <tr>
+            <td class="start-time">10:36am - 10:41am</td>
+            <td>Login to Level 2</td>
+        </tr>
+        <tr>
+            <td class="start-time">10:41am - 10:50am</td>
+            <td>Introduction of MBS/ Level 2 - 9 mins (Page 65-74)</td>
+        </tr>
+        <tr>
+            <td class="start-time">10:50am – 11:02am</td>
+            <td>Round 1 of Game 2 – 12 mins (Page46-75)</td>
+        </tr>
+        <tr>
+            <td class="start-time">11:02am - 11:09am</td>
+            <td>Result review and debrief – 7 mins (Page76-78)</td>
+        </tr>
+        <tr>
+            <td class="start-time">11:09am - 11:21am</td>
+            <td>Round 2 of Game 1 – 12 mins (Page79)</td>
+        </tr>
+        <tr>
+            <td class="start-time">11:21am - 11:28am</td>
+            <td>Result review and debrief - 7 mins (Page80-83)</td>
+        </tr>
+        <tr>
+            <td class="start-time">11:28am - 11:40am</td>
+            <td>Round 3 of Game 1 – 12 mins (Page84)</td>
+        </tr>
+        <tr>
+            <td class="start-time">11:40am - 11:47am</td>
+            <td>Result review and debrief - 7 mins (Page85-90)</td>
+        </tr>
+        <tr>
+            <td class="start-time">11:47am - 12:00am</td>
+            <td>Round 4 of Game 1 – 13 mins (Page91)</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="lunch-break">------------- Lunch Break ------------</td>
+        </tr>
+        <tr>
+            <td class="start-time">01:30pm - 01:35pm</td>
+            <td>Result review – 5 mins</td>
+        </tr>
+        <tr>
+            <td class="start-time">01:35pm - 01:45pm</td>
+            <td>Debrief and Sharing by teams – 10 mins</td>
+        </tr>
+        <tr>
+            <td class="start-time">01:45pm – 01:50pm</td>
+            <td>Login to Game 3</td>
+        </tr>
+        <tr>
+            <td class="start-time">01:50pm - 02:10pm</td>
+            <td>Introduction of MBS/ Level 3 – 15 mins (Page 92-103)</td>
+        </tr>
+        <tr>
+            <td class="start-time">01:55pm – 02:10pm</td>
+            <td>Round 1 of Game 3 – 15 mins (Page103)</td>
+        </tr>
+        <tr>
+            <td class="start-time">02:10pm – 02:20pm</td>
+            <td>Result review and Discussion– 10 mins (Page104)</td>
+        </tr>
+        <tr>
+            <td class="start-time">02:20pm – 02:35pm</td>
+            <td>Round 2 of Game 3 – 15 mins (Page105)</td>
+        </tr>
+        <tr>
+            <td class="start-time">02:35pm – 02:45pm</td>
+            <td>Result review and debrief - 10 mins (Page106)</td>
+        </tr>
+        <tr>
+            <td class="start-time">02:45pm – 03:00pm</td>
+            <td>Round 3 of Game 3 – 15 mins (Page107)</td>
+        </tr>
+        <tr>
+            <td class="start-time">03:00pm – 03:10pm</td>
             <td>Break</td>
         </tr>
         <tr>
-            <td>8:00pm - 8:10pm</td>
-            <td>Round 1 of Level 1</td>
+            <td class="start-time">03:10pm – 03:20pm</td>
+            <td>Result review and debrief - 10 mins (Page108)</td>
         </tr>
         <tr>
-            <td>8:10pm - 8:20pm</td>
-            <td>Result debrief</td>
+            <td class="start-time">03:20pm – 03:35pm</td>
+            <td>Round 4 of Game 3 – 15 mins (Page109)</td>
         </tr>
         <tr>
-            <td>8:20pm - 8:32pm</td>
-            <td>Round 2 of Level 1</td>
+            <td class="start-time">03:35pm – 03:40pm</td>
+            <td>Result review and debrief - 10 mins (Page110)</td>
         </tr>
         <tr>
-            <td>8:32pm - 8:37pm</td>
-            <td>Result debrief</td>
+            <td class="start-time">03:40pm – 03:45pm</td>
+            <td>Spinning Wheel – 5 mins (60%/ 40%)</td>
         </tr>
         <tr>
-            <td>8:37pm - 8:50pm</td>
-            <td>Round 3 of Level 1</td>
+            <td class="start-time">03:45pm – 03:55pm</td>
+            <td>Round 5 of Game 3 – 10 mins (Page111)</td>
         </tr>
         <tr>
-            <td>8:50pm - 8:55pm</td>
-            <td>Result debrief</td>
+            <td class="start-time">03:55pm – 04:00pm</td>
+            <td>Result review – 5 mins (Page112)</td>
         </tr>
         <tr>
-            <td>8:55pm - 9:10pm</td>
-            <td>Round 4 of Level 1</td>
+            <td class="start-time">04:00pm – 04:05pm</td>
+            <td>Spinning Wheel - 5 mins (40%/ 60%)</td>
         </tr>
         <tr>
-            <td>9:10pm - 9:15pm</td>
-            <td>Result debrief</td>
+            <td class="start-time">04:05pm – 04:15pm</td>
+            <td>Round 6 of Game 3 – 10 mins (Page111)</td>
         </tr>
         <tr>
-            <td>9:15pm - 9:20pm</td>
-            <td>Summary</td>
+            <td class="start-time">04:15pm – 04:20pm</td>
+            <td>Result review – 5 mins (Page112)</td>
+        </tr>
+        <tr>
+            <td class="start-time">04:20pm – 04:25pm</td>
+            <td>Spinning Wheel - 5 mins (20%/ 80%)</td>
+        </tr>
+        <tr>
+            <td class="start-time">04:25pm – 04:35pm</td>
+            <td>Round 7 of Game 3 – 10 mins (Page112)</td>
+        </tr>
+        <tr>
+            <td class="start-time">04:35pm – 04:40pm</td>
+            <td>Result review – 5 mins (Page113)</td>
+        </tr>
+        <tr>
+            <td class="start-time">04:40pm – 05:00pm</td>
+            <td>Sharing by teams</td>
         </tr>
     </table>
 </body>
 </html>
+
+直接复制全部代码即可 ✔️
